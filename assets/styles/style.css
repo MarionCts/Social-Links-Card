@@ -32,12 +32,12 @@ html{
     letter-spacing: 0;
 }
 
-h1, a{
+h1, a, .bold{
     font-weight: 700;
     text-decoration: none;
 }
 
-p, .preset2, a{
+p, a, h2{
     font-size: 1.4rem;
 }
 
@@ -49,7 +49,7 @@ h2{
     margin-bottom: 2.4rem;
 }
 
-p, .preset2{
+p{
     font-weight: 400;
 }
 .green{
