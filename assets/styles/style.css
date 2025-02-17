@@ -1,0 +1,126 @@
+/* RESET */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+/* COLORS */
+
+:root{
+    --Grey-900: hsl(0 0 8);
+    --Grey-800: hsl(0 0 12);
+    --Grey-700: hsl(0 0 20);
+    --Green: hsl(75 94 57);
+    --White: hsl(0 0 100);
+}
+
+/* TEXTS */
+
+*{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    font-style: normal;
+    color: var(--White);
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+h1, a{
+    font-weight: 700;
+    text-decoration: none;
+}
+
+p, .preset2, a{
+    font-size: 1.4rem;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+h2{
+    margin-bottom: 2.4rem;
+}
+
+p, .preset2{
+    font-weight: 400;
+}
+.green{
+    color: var(--Green);
+}
+
+/* BACKGROUND */
+
+body{
+    background-color: var(--Grey-900);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CARD */
+
+section.card{
+    background-color: var(--Grey-800);
+    border-radius: 1.2rem;
+}
+
+figure{
+    min-width: 384px;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+figure img{
+    border-radius: 100%;
+    max-width: 8.8rem;
+}
+
+
+/* LINKS */
+
+ul{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    gap: 1.6rem;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    display: block;
+    background-color: var(--Grey-700);
+    border-radius: 0.8rem;
+    padding: 1.2rem 0;
+    transition: all 0.2s ease-in-out;
+}
+
+li a:hover, li a:focus{
+    color: var(--Grey-700);
+    background-color: var(--Green);
+}
+
+/* RESPONSIVE */
+
+@media  screen and (min-width:300px) and (max-width:600px){
+    
+    figure{
+        min-width: 327px;
+    }
+    
+}
