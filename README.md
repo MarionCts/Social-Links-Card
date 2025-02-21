@@ -1,52 +1,31 @@
-# Frontend Mentor - Social links profile solution
-
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+# Frontend Mentor - Social Links Card 
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-
+  - [Live preview](#live-preview)
+  - [Solution retrospective](#solution-retrospective)
 
 ## Overview
 
 ### The challenge
 
-Users should be able to:
-
-- See hover and focus states for all interactive elements on the page
+The challenge was to build out a social link-sharing profile.
 
 ### Screenshot
 
 ![](./screenshot.jpg)
 
+### Live preview
 
-### Links
+- Live Site URL: [Live preview](https://marioncts.github.io/Social-Links-Card/)
 
-- Solution URL: [Solution](https://github.com/MarionCts/Social-Links-Card)
-- Live Site URL: [Live preview](https://marioncts.github.io/Social-Links-Card)
+### Solution retrospective
 
-## My process
+This challenge was a great opportunity to refresh my knowledge of Flexbox. I also experimented with the gap property on Flexbox elements to reduce the use of margins and padding. This helped me stay as close as possible to the original design while keeping the code concise.
 
-### Built with
+If I were to take this challenge again, I would like to explore a different approach to responsiveness—for example, using the clamp property on text instead of relying solely on media queries.
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-
-
-### What I learned
-
-I experimented with the "gap" property on flexbox elements, in order to avoid using too much margins and paddings. This helped me a lot to stay as close as possible to the original design and to keep the code as short as possible.
-
-
-### Continued development
-
-I want to get more confortable with semantic HTML and CSS transitions.
-
+I would be grateful for any kind of feedback!

@@ -74,9 +74,17 @@ section.card{
     border-radius: 1.2rem;
 }
 
-figure{
-    min-width: 384px;
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 4rem;
+    min-width: 384px;
+    gap: 2.4rem;
+}
+
+figure{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +128,7 @@ li a:hover, li a:focus{
 
 @media  screen and (min-width:300px) and (max-width:600px){
     
-    figure{
+    article{
         min-width: 327px;
     }
     
